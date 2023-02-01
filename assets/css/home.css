@@ -1,0 +1,107 @@
+ 
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label,input,select{
+    display: block;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 45%;
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+#info{
+    margin-bottom: 30px;
+}
+#tsk{
+    width: 100%;
+    height: 70px;
+    border: 1px solid lightgrey;
+    /* padding: 2px; */
+}
+
+input,select{
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 0px;
+    
+}
+#select{
+    width: 50%;
+    border: 1px solid lightgrey;
+}
+#date{
+    border: 1px solid lightgrey;
+    width: 50%;
+}
+#down{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid lightgrey; */
+    height: 70px;
+}
+ 
+#out{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 0px;
+    background-image: linear-gradient(to right, #5a3f37, #2c7744);
+
+}
+
+#first{
+    width: 90%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 5px;
+}
+#first-first{
+    /* font-weight: bold; */
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+#first-first + p{
+    margin-top: 10px;
+    color: gray;
+}
+#second{
+    margin: 20px;
+    background-color: blue;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+#second p{
+    margin-bottom: 20px;
+}
+i{
+    margin-right: 5px;
+}
+#out a{
+    margin: 20px;
+    margin-top: 30px;
+    /* height: 70px; */
+} 
+
+ 
